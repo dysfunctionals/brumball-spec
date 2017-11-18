@@ -1,5 +1,9 @@
-# Display Specification
+# [DEFUNCT] Display Specification
 ---
+**NOTE: This spec is now defunct, as the architecture has changed significantly, so don't expect the
+display to conform to it. The current server spec is not formally defined anywhere and is pretty
+much just ad-hoc.**
+
 The meaning of **must**, **should**, **could** and other similar terms is to be as specified in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 ## Display dimensions and objects
