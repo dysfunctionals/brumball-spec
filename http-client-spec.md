@@ -9,7 +9,7 @@
 ## State Change
 - Client sends POST request to /inform containing:
     - "token": the client's unquie string identifier passed during the connection.
-    - "motion": containing True for clockwise and False for anticlockwise.
+    - "motion": containing 1 for clockwise and -1 for anticlockwise, and 0 for no motion.
 - We return JSON containing:
     - "valid": true if the token and data was accepted, false otherwise.
 - If "valid" was false, client reconnection is required.
